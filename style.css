@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sigmar", serif;
+}
+body{
+    background-color: #233142;
+}
+.contrnerOne{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ justify-items: center;
+ margin-top: 200px;
+}
+
+.option{
+    width: 200px;
+    height: 200px;
+    background-color:#FACF5A;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    z-index: 100;
+}
+
+.VS{
+    font-family: "Sigmar", serif;
+    font-size: 70px;
+    font-weight: 500;
+    color: #F95959;
+}
+
+.optionFriend,
+.optionCom{
+    font-family: "Sigmar", serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F95959;
+}
+
+.none{
+    display: none;
+}
+
+.contrnerTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.title{
+    color: #FACF5A;
+}
+
+.gameBoard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #F95959;
+    border: 1px solid black;
+}
+
+.reset,.home{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #FACF5A;
+    padding-bottom: 10px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.marker{
+    font-family: "Sigmar", serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: #FACF5A;
+}
+
+.chosse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    gap: 10px;
+}
+
+.optiones{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.resulte{
+    color: red;
+    font-family: "Sigmar", serif;
+    font-weight: 300;
+}
+
+.controle{
+    display: flex;
+    gap: 15px;
+}
+
+/* .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 400px;
+    justify-self: center;
+    color: #FACF5A;
+    background-color: #F95959;
+} */
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 400px;
+    justify-self: center;
+    color: #FACF5A;
+    background-color: #F95959;
+    gap: 5px;
+    border-radius: 15px;
+}
+form h3{
+    text-align: center;
+    font-weight: 400;
+}
+form button{
+    align-self: center;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    z-index: 10000;
+    cursor: pointer;
+}
+.p1,.p2{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+}
+
+input[type="text"]{
+    align-self: center;
+    outline: 0px;
+    padding-left: 10px;
+    border-radius: 15px;
+    border: 0px;
+    width: 150px;
+    margin-left: 10px;
+}

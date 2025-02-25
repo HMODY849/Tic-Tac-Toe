@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Tic Tac Toe</title>
 </head>
-<body>
-    
+<body id="body">
+     <div class="contrnerOne " id="contrnerOne">
+            <div class="option" id="oFriend">
+                <div class="VS">Vs</div>
+                <div class="optionFriend">Friend</div>
+            </div>
+            <div class="option" id="oCom">
+                <div class="VS">Vs</div>
+                <div class="optionCom">Com</div>
+            </div>
+    </div>
+        <form action="#" method="post" class="none" id="form">
+            <h3>Please Inter Player's Name's</h3>
+            <div class="p1">
+                <label for="playerone">Player One Name:</label>
+                <input type="text" name="playerone" id="playerone">
+            </div>
+            <div class="p2">
+                <label for="playertwo">Player Two Name:</label>
+                <input type="text" name="playertwo" id="playertwo">
+            </div>
+            <button id="Next" type="button">Next</button>
+        </form>
+    <div class="none" id="chosse">
+        <h1 class="title">Player One</h1>
+        <div class="optiones">
+            <div class="option" id="OptionX">
+                <div class="VS">X</div>
+            </div>
+            <div class="option" id="OptionO">
+                <div class="VS">O</div>
+            </div>  
+        </div>
+    </div>
+    <div class="none" id="contrnerTwo">
+        <h1 class="title">TIC TAC TOE</h1>
+        <h3 class="resulte"  id="resulte"></h3>
+        <div class="gameBoard" id="gameBoard">
+            <div class="item" id="item0" data-id="0"></div>
+            <div class="item" id="item1" data-id="1"></div>
+            <div class="item" id="item2" data-id="2"></div>
+            <div class="item" id="item3" data-id="3"></div>
+            <div class="item" id="item4" data-id="4"></div>
+            <div class="item" id="item5" data-id="5"></div>
+            <div class="item" id="item6" data-id="6"></div>
+            <div class="item" id="item7" data-id="7"></div>
+            <div class="item" id="item8" data-id="8"></div>
+        </div>
+        <div class="controle">
+            <button class="home optionFriend" id="home" type="reset">Home</button>
+            <button class="reset optionFriend" id="reset">Reset</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
