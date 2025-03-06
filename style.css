@@ -158,6 +158,6 @@ input[type="text"]{
 
 @media (max-width: 768px) {
     .optiones{
-        gap: 80px;
+        gap: 20px;
     }
 }
