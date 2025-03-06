@@ -7,9 +7,8 @@ body{
     background-color: #233142;
 }
 .contrnerOne{
- display: grid;
- grid-template-columns: repeat(2,1fr);
- justify-items: center;
+ display: flex;
+ justify-content: space-evenly;
  margin-top: 200px;
 }
 
@@ -103,8 +102,7 @@ body{
 
 .optiones{
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    gap: 100px;
 }
 
 .resulte{
@@ -118,19 +116,10 @@ body{
     gap: 15px;
 }
 
-/* .form{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    width: 400px;
-    justify-self: center;
-    color: #FACF5A;
-    background-color: #F95959;
-} */
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 200px;
     width: 400px;
     justify-self: center;
     color: #FACF5A;
@@ -154,7 +143,6 @@ form button{
 }
 .p1,.p2{
     display: flex;
-    /* flex-direction: column; */
     padding: 10px;
 }
 
@@ -166,4 +154,10 @@ input[type="text"]{
     border: 0px;
     width: 150px;
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .optiones{
+        gap: 80px;
+    }
 }
